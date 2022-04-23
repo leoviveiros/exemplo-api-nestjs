@@ -10,3 +10,5 @@ nest generate resource orders
 
 npm install sequelize sequelize-typescript sqlite3 @nestjs/sequelize
 npm install @types/sequelize --save-dev
+
+npm install class-validator class-transformer
