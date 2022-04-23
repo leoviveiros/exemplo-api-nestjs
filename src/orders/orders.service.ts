@@ -29,7 +29,11 @@ export class OrdersService {
         return order;
     }
 
-    remove(id: number) {
-        return `This action removes a #${id} order`;
+    async remove(id: string) {
+        const order = await this.orderModel.findByPk(id);
+
+        if (order) {
+            order.destroy();
+        }
     }
 }

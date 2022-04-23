@@ -21,3 +21,6 @@ Content-Type: application/json
 {
   "amount": 53.90
 }
+
+###
+DELETE http://localhost:3000/orders/d75ffe0a-1e32-4d45-8af3-2046954202c8
