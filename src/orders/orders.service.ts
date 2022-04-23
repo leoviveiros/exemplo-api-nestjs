@@ -19,8 +19,8 @@ export class OrdersService {
         return this.orderModel.findAll();
     }
 
-    findOne(id: number) {
-        return `This action returns a #${id} order`;
+    findOne(id: string) {
+        return this.orderModel.findByPk(id, { rejectOnEmpty: true });
     }
 
     update(id: number, updateOrderDto: UpdateOrderDto) {
