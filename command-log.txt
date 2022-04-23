@@ -12,3 +12,7 @@ npm install sequelize sequelize-typescript sqlite3 @nestjs/sequelize
 npm install @types/sequelize --save-dev
 
 npm install class-validator class-transformer
+
+npm install @nestjs/swagger swagger-ui-express
+
+http://localhost:3000/api
