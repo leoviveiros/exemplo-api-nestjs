@@ -13,3 +13,11 @@ GET http://localhost:3000/orders/9c7835bc-e8ea-4f07-9355-dc85702b1166
 
 ### 
 GET http://localhost:3000/orders/invalid-id
+
+###
+PATCH  http://localhost:3000/orders/9c7835bc-e8ea-4f07-9355-dc85702b1166
+Content-Type: application/json
+
+{
+  "amount": 53.90
+}
