@@ -1,0 +1,12 @@
+npm install -g @nestjs/cli
+
+nest new --directory . exemplo-nestjs
+
+npm run start:dev
+
+http://localhost:3000/
+
+nest generate resource orders
+
+npm install sequelize sequelize-typescript sqlite3 @nestjs/sequelize
+npm install @types/sequelize --save-dev
